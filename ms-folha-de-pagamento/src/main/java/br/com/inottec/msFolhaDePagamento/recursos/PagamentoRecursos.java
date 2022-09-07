@@ -14,6 +14,7 @@ import br.com.inottec.msFolhaDePagamento.servi.PagamentoServidor;
 @RequestMapping(value = "/pagamento")
 public class PagamentoRecursos {
 
+	
 	@Autowired
 	private PagamentoServidor service;
 
