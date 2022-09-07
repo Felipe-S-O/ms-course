@@ -1,1 +1,5 @@
 # ms-course
+
+#### Eclipse #####
+
+.metadata 
