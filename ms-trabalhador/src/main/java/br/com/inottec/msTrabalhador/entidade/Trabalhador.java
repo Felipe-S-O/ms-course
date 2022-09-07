@@ -1,4 +1,4 @@
-package br.com.inottec.mscourse.entidade;
+package br.com.inottec.msTrabalhador.entidade;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -7,13 +7,13 @@ import javax.persistence.Id;
 
 @Entity
 public class Trabalhador {
-	
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	private String nome;
 	private Double diaria;
-	
+
 	public Trabalhador() {
 		super();
 		// TODO Auto-generated constructor stub
@@ -42,8 +42,5 @@ public class Trabalhador {
 	public void setDiaria(Double diaria) {
 		this.diaria = diaria;
 	}
-	
-	
-	
 
 }
